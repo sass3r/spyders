@@ -16,7 +16,6 @@ if len(sys.argv) > 1:
       horario_peli = re.findall("span>([\W\w].*)<br", dato)
       print "\033[1;39m %d \033[1;31m%s\n\t \033[1;33m%s\n\033[1;00m"%(i,titulo_peli[0],horario_peli[0])
   except: print "\033[1;31m **** Elija la sede ****\033[1;00m"
-  # obteniendo pelis en cartelera
 else: print """
 Usage:\n \033[1;35m./center.py <sede>\033[1;00m\n cochabamba\n santacruz\n lapaz
 """
