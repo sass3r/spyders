@@ -1,0 +1,4 @@
+spyders
+=======
+
+scripts parseadoras
